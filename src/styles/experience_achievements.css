@@ -273,7 +273,7 @@
 .cc4::before { background: var(--slate); }
 
 .cert-name { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700; color: var(--space); padding-left: 8px; }
-.cert-issuer { font-family: 'Caveat', cursive; font-size: 14px; font-weight: 600; color: var(--coffee); padding-left: 8px; }
+.cert-issuer { font-family: 'Inter', sans-serif; font-size: 14px; font-weight: 600; color: var(--coffee); padding-left: 8px; }
 .cert-seal {
   position: absolute;
   right: 8px;

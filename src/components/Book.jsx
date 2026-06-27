@@ -508,21 +508,26 @@ export default function Book() {
               </div>
               <div className="cert-card cc2">
                 <div className="cert-seal s2">★</div>
-                <div className="cert-name">Programming in Java</div>
-                <div className="cert-issuer">NPTEL</div>
+                <div className="cert-name">Python(Basic)</div>
+                <div className="cert-issuer">Hackerrank</div>
               </div>
               <div className="cert-card cc3">
                 <div className="cert-seal s3">★</div>
-                <div className="cert-name">Database Management System</div>
+                <div className="cert-name">Programming in Java</div>
                 <div className="cert-issuer">NPTEL</div>
               </div>
               <div className="cert-card cc4">
                 <div className="cert-seal s4">★</div>
-                <div className="cert-name">Technology Job Simulation</div>
-                <div className="cert-issuer">Deloitte Australia</div>
+                <div className="cert-name">Database Management System</div>
+                <div className="cert-issuer">NPTEL</div>
               </div>
               <div className="cert-card cc1">
                 <div className="cert-seal s1">★</div>
+                <div className="cert-name">Technology Job Simulation</div>
+                <div className="cert-issuer">Deloitte Australia</div>
+              </div>
+              <div className="cert-card cc2">
+                <div className="cert-seal s2">★</div>
                 <div className="cert-name">CBSE Industry Engagement</div>
                 <div className="cert-issuer">CBSE</div>
               </div>
