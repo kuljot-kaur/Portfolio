@@ -1,0 +1,295 @@
+/* Experience & Achievements Styles from HTML Reference */
+
+/* ── LEFT — tan/coffee warm ── */
+.exp-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 32px 24px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.exp-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 90% 5%, rgba(255,255,255,0.06) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.exp-page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 56px;
+  color: #1a0d06;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 2;
+}
+
+/* TIMELINE */
+.exp-timeline {
+  position: relative;
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  flex: 1;
+}
+.exp-timeline::before {
+  content: '';
+  position: absolute;
+  left: 8px;
+  top: 8px;
+  bottom: 8px;
+  width: 2px;
+  background: linear-gradient(180deg, #1a0d06, rgba(26,13,6,0.3));
+}
+.tl-item {
+  position: relative;
+  margin-bottom: 22px;
+}
+.tl-item:last-child {
+  margin-bottom: 0;
+}
+.tl-dot {
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  background: #1a0d06;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 3px #C4A070, 0 0 0 5px rgba(26,13,6,0.3);
+}
+.tl-dot::after {
+  content: '✦';
+  font-size: 7px;
+  color: var(--tan);
+}
+.tl-year {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: #1a0d06;
+  letter-spacing: 0.05em;
+  margin-bottom: 3px;
+}
+.tl-role {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a0d06;
+  margin-bottom: 2px;
+}
+.tl-desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(26,13,6,0.85);
+  line-height: 1.5;
+  margin-bottom: 3px;
+}
+.tl-org {
+  font-family: 'Caveat', cursive;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a0d06;
+}
+.tl-badge {
+  display: inline-block;
+  background: #1a0d06;
+  color: var(--tan);
+  font-size: 8px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  padding: 2px 8px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+  margin-top: 3px;
+}
+
+/* hashtags at bottom */
+.hash-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+  padding-top: 14px;
+}
+.hash {
+  background: #1a0d06;
+  color: var(--tan);
+  font-family: 'Caveat', cursive;
+  font-size: 13px;
+  padding: 5px 14px;
+  border-radius: 20px;
+}
+
+/* ── RIGHT — cream ── */
+.ach-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 28px 30px 24px 34px;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-image: linear-gradient(rgba(97,120,145,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(97,120,145,0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+.ach-page::before {
+  content: '';
+  position: absolute;
+  left: 36px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: rgba(200,100,100,0.12);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.ach-page-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 2;
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 8px;
+}
+
+/* ── PUBLICATION ── */
+.pub-section { position: relative; z-index: 2; margin-bottom: 18px; }
+.pub-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: var(--v2-cream, #fff);
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.pub-label::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.4); }
+
+.pub-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 14px 16px;
+  position: relative;
+  box-shadow: 2px 3px 8px rgba(0,0,0,0.08);
+}
+.pub-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--space), var(--slate));
+}
+.pub-journal {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--slate);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.pub-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 15px;
+  color: var(--space);
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
+.pub-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.pub-tag {
+  display: inline-block;
+  background: var(--space);
+  color: var(--tan);
+  font-size: 8px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  padding: 2px 8px;
+  border-radius: 2px;
+  letter-spacing: 0.05em;
+  margin-top: 6px;
+}
+
+/* ── CERTIFICATES ── */
+.cert-section { position: relative; z-index: 2; flex: 1; }
+.cert-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  font-weight: 900;
+  color: var(--v2-cream, #fff);
+  margin-bottom: 9px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.cert-label::after { content: ''; flex: 1; height: 1px; background: rgba(255,255,255,0.4); }
+
+.cert-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.cert-card {
+  padding: 10px 12px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.cert-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 5px; }
+.cc1 { background: #EEF2F7; border: 1px solid #c5d0e0; }
+.cc1::before { background: var(--space); }
+.cc2 { background: #F7EEF0; border: 1px solid #dfc5c8; }
+.cc2::before { background: var(--caput); }
+.cc3 { background: #F5EFE6; border: 1px solid #d9c9aa; }
+.cc3::before { background: var(--coffee); }
+.cc4 { background: #EEF5F7; border: 1px solid #b8d0da; }
+.cc4::before { background: var(--slate); }
+
+.cert-name { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 700; color: var(--space); padding-left: 8px; }
+.cert-issuer { font-family: 'Caveat', cursive; font-size: 14px; font-weight: 600; color: var(--coffee); padding-left: 8px; }
+.cert-seal {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 8px;
+  font-weight: 700;
+}
+.s1 { border-color: var(--space); color: var(--space); }
+.s2 { border-color: var(--caput); color: var(--caput); }
+.s3 { border-color: var(--coffee); color: var(--coffee); }
+.s4 { border-color: var(--slate); color: var(--slate); }
