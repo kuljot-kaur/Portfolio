@@ -1,16 +1,56 @@
-# React + Vite
+# Kuljot Kaur's Interactive Portfolio ✦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the source code of my interactive developer portfolio! This project is designed as a unique, interactive digital library and flipbook that showcases my skills, experience, projects, and achievements in an engaging, story-driven format.
 
-Currently, two official plugins are available:
+## 🌟 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Immersive Library Entrance**: A stylized animated entry scene with floating text and interactive elements.
+- **Interactive 3D Book UI**: A custom-built, responsive page-flipping book interface with realistic shadows, lighting, and book textures.
+- **Dynamic Content Spreads**: Includes sections for:
+  - About Me & Skills (The Author)
+  - Projects & Highlights
+  - Experience Timeline
+  - Publications & Certifications
+  - Contact Postcard
+- **Engaging Animations**: Smooth CSS-driven micro-interactions, floating text, dangling stamps, and custom page transitions.
+- **Audio Integration**: Subtle background ambient music to enhance the reading experience.
 
-## React Compiler
+## 🛠 Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js**: For component-based UI and state management.
+- **Vite**: For fast, optimized frontend tooling and building.
+- **Vanilla CSS**: Fully custom, hand-written CSS architecture (no bloated UI libraries) utilizing variables, advanced flexbox/grid, and complex keyframe animations.
+- **Framer Motion**: For smooth physics-based component mounting and transitions.
 
-## Expanding the ESLint configuration
+## 🚀 How to Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you'd like to explore the code or run this portfolio on your local machine, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/kuljot-kaur/Portfolio.git
+   cd Portfolio
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser and visit `http://localhost:5173` (or the port provided in your terminal).
+
+## 📬 Contact
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+
+- **GitHub**: [@kuljot-kaur](https://github.com/kuljot-kaur)
+- **LinkedIn**: [Kuljot Kaur](https://linkedin.com/in/kuljot-kaur-11a955264)
+- **Email**: kaurkuljot23@gmail.com
+
+---
+*Curious by nature. Builder by choice. Always learning, always creating.*
